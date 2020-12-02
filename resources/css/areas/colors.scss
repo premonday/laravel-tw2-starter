@@ -1,0 +1,21 @@
+:root {
+  --color-primary: #4594E8;
+  --color-secondary: #653EDA;
+  --color-primary-light: color-mod(var(--color-primary) tint(15%));
+  --color-primary-dark: color-mod(var(--color-primary) shade(15%));
+  --color-secondary-light: color-mod(var(--color-secondary) tint(15%));
+  --color-secondary-dark: color-mod(var(--color-secondary) shade(10%));
+
+  --color-bg: #0E1117; // bg
+  --color-bg-lighter: color-mod(var(--color-bg) tint(20%));
+  --color-bg-light: color-mod(var(--color-bg) tint(10%));
+  --color-bg-dark: color-mod(var(--color-bg) shade(10%));
+  --color-bg-darker: color-mod(var(--color-bg) shade(20%));
+  --color-high: #FFF;
+  --color-body: color-mod(var(--color-high) shade(10%));
+  --color-border: rgba(255, 255, 255, 0.05);
+  --color-black: #0c0e13;
+  --color-white: #FFF;
+  --color-shade: rgba(0, 0, 0, 0.07);
+  --color-transparent: transparent;
+}

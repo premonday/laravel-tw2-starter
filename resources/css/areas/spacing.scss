@@ -1,0 +1,19 @@
+:root {
+  --baseline: 25px;
+
+  --space-xxs:   calc(var(--baseline)/9);
+  --space-xs:   calc(var(--baseline)/6);
+  --space-sm:   calc(var(--baseline)/3);
+  --space-md:   calc(var(--baseline)/1.5);
+  --space: var(--baseline);
+  --space-lg:   calc(var(--baseline)*1.5);
+  --space-xl:   calc(var(--baseline)*3);
+
+  --space-component: calc(var(--baseline)*1.1);
+}
+
+@screen md {
+  :root {
+    --baseline: 30px;
+  }
+}
