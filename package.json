@@ -21,6 +21,7 @@
     },
     "dependencies": {
         "autoprefixer": "^9.8.6",
+        "laravel-mix-purgecss": "^5.0.0",
         "postcss": "^7.0.35",
         "postcss-color-mod-function": "^3.0.3",
         "postcss-custom-properties": "^10.0.0",
